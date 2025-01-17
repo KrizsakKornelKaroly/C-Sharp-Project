@@ -10,6 +10,7 @@ namespace BuKing
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Mukcik?");
         }
     }
 }
