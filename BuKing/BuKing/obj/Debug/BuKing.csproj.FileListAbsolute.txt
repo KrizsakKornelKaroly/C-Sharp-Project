@@ -1,0 +1,7 @@
+C:\Users\krizsakkornelkaroly\Desktop\C-Sharp-Project\BuKing\BuKing\bin\Debug\BuKing.exe.config
+C:\Users\krizsakkornelkaroly\Desktop\C-Sharp-Project\BuKing\BuKing\bin\Debug\BuKing.exe
+C:\Users\krizsakkornelkaroly\Desktop\C-Sharp-Project\BuKing\BuKing\bin\Debug\BuKing.pdb
+C:\Users\krizsakkornelkaroly\Desktop\C-Sharp-Project\BuKing\BuKing\obj\Debug\BuKing.csproj.AssemblyReference.cache
+C:\Users\krizsakkornelkaroly\Desktop\C-Sharp-Project\BuKing\BuKing\obj\Debug\BuKing.csproj.CoreCompileInputs.cache
+C:\Users\krizsakkornelkaroly\Desktop\C-Sharp-Project\BuKing\BuKing\obj\Debug\BuKing.exe
+C:\Users\krizsakkornelkaroly\Desktop\C-Sharp-Project\BuKing\BuKing\obj\Debug\BuKing.pdb
