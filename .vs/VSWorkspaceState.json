@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\BuKing",
+    "\\BuKing\\BuKing"
   ],
-  "SelectedNode": "\\BuKing.sln",
+  "SelectedNode": "\\BuKing\\BuKing\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
