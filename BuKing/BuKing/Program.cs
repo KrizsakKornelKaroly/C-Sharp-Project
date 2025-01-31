@@ -16,6 +16,9 @@ namespace BuKing
                 "Elerhető- az elérhető eseményeket mutatni fogja\n" +
                 "'Eseményneve'- kiírja az eseményről való adatokat\n" +
                 "Bookingeseménynévadottjegy- lefoglalhat egy elérhető esemény jegyét");
+
+
+
         }
     }
 }

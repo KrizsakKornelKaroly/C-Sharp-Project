@@ -15,13 +15,11 @@ namespace BuKing
         private static string database = "12a_buking";
         private static string user = "root";
         private static string password = "";
-        private static List<Booking> orszagokList = new List<Booking>();
-
         private static string connectionString = $"Server={server};Database={database};User ID={user};Password={password};";
         public static MySqlConnection connection = new MySqlConnection(connectionString);
 
 
-
+        private static List<Booking> bookingList = new List<Booking>();
 
 
 
