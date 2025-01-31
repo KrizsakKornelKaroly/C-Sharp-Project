@@ -10,18 +10,19 @@ namespace BuKing
 {
     internal class Program
     {
+        public static List<Helyszin> helyszinek = new List<Helyszin>();
+        public static List<Esemeny> esemenyek = new List<Esemeny>();
         static void Main(string[] args)
         {
-            
+            Fajlbeolvasas.KapcsolodasDB();
 
             Console.WriteLine("Üdvözlet! Tessen kiválasztani eme végrehajtandó feladatocskát:\n" +
-                "1 - az összes eseményt mutatni fogja, és az elérhetőséget \n" +
-                "2 - az elérhető eseményeket mutatni fogja\n" +
-                "3 - kiírja az eseményről való adatokat\n" +
-                "4 - lefoglalhat egy elérhető esemény jegyét");
-
+                "1 - Az összes esemény lekérdezése helyszínnel és időponttal együtt \n" +
+                "2 - Jegyelérhetőségek lekérdezése\n" +
+                "3 - Jegyvásárlás\n");
             Console.WriteLine("\nKérem a sorszámot: ");
             int sorszam = Convert.ToInt32(Console.ReadLine());
+           
 
             while (sorszam != 0)
             {
@@ -29,15 +30,13 @@ namespace BuKing
                 switch (sorszam)
                 {
                     case 1:
-                        Fajlbeolvasas.KapcsolodasDB();
+                       
+                        Fajlbeolvasas.EsemenyekEsHelyszínek();
                         break;
                     case 2:
                         elerhetokiiras();
                         break;
                     case 3:
-                        esemenyadatok();
-                        break;
-                    case 4:
                         foglalas();
                         break;
                     default:
