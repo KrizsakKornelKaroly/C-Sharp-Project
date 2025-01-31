@@ -98,6 +98,8 @@
     <Compile Include="Booking.cs" />
     <Compile Include="Esemeny.cs" />
     <Compile Include="Fajlbeolvasas.cs" />
+    <Compile Include="Helyszin.cs" />
+    <Compile Include="Jegy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
