@@ -8,5 +8,6 @@ namespace BuKing
 {
     internal class Booking
     {
+
     }
 }

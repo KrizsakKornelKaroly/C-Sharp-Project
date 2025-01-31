@@ -12,7 +12,7 @@ namespace BuKing
     {
 
         private static string server = "localhost";
-        private static string database = "";
+        private static string database = "12a_buking";
         private static string user = "root";
         private static string password = "";
         private static List<Booking> orszagokList = new List<Booking>();
