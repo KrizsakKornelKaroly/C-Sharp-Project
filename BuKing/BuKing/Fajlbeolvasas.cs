@@ -10,13 +10,26 @@ namespace BuKing
 {
     internal class Fajlbeolvasas
     {
-
-        private static string server = "localhost";
-        private static string database = "12a_buking";
-        private static string user = "root";
-        private static string password = "";
-        private static string connectionString = $"Server={server};Database={database};User ID={user};Password={password};";
+        private static string connectionString = $"Server=localhost;Database=12a_buking;User ID=root;Password=;";
         public static MySqlConnection connection = new MySqlConnection(connectionString);
+
+        public static void KapcsolodasDB()
+        {
+            try
+            {
+                connection.Open();
+                Console.WriteLine("Minden baba.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Valami nem jó: " + ex.Message);
+            }
+        }
+
+        public static void EsemenyekEsHelyszínek()
+        {
+
+        }
 
 
         private static List<Booking> bookingList = new List<Booking>();

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
@@ -11,6 +12,8 @@ namespace BuKing
     {
         static void Main(string[] args)
         {
+            
+
             Console.WriteLine("Üdvözlet! Tessen kiválasztani eme végrehajtandó feladatocskát:\n" +
                 "1 - az összes eseményt mutatni fogja, és az elérhetőséget \n" +
                 "2 - az elérhető eseményeket mutatni fogja\n" +
@@ -26,7 +29,7 @@ namespace BuKing
                 switch (sorszam)
                 {
                     case 1:
-                        osszeskiiras();
+                        Fajlbeolvasas.KapcsolodasDB();
                         break;
                     case 2:
                         elerhetokiiras();

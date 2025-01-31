@@ -45,3 +45,43 @@ C:\Users\acsbenjamin\Downloads\C-Sharp-Project\BuKing\BuKing\bin\Debug\System.Nu
 C:\Users\acsbenjamin\Downloads\C-Sharp-Project\BuKing\BuKing\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\acsbenjamin\Downloads\C-Sharp-Project\BuKing\BuKing\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\acsbenjamin\Downloads\C-Sharp-Project\BuKing\BuKing\obj\Debug\BuKing.csproj.Up2Date
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\BuKing.exe.config
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\BuKing.exe
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\BuKing.pdb
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\BouncyCastle.Cryptography.dll
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\Google.Protobuf.dll
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\K4os.Compression.LZ4.dll
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\K4os.Hash.xxHash.dll
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\MySql.Data.dll
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\System.Buffers.dll
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\System.IO.Pipelines.dll
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\System.Memory.dll
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\System.Numerics.Vectors.dll
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\ZstdSharp.dll
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\BouncyCastle.Cryptography.xml
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\Google.Protobuf.pdb
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\Google.Protobuf.xml
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\K4os.Compression.LZ4.xml
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\K4os.Hash.xxHash.xml
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\MySql.Data.xml
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\System.Buffers.xml
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\System.IO.Pipelines.xml
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\System.Memory.xml
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\System.Numerics.Vectors.xml
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\obj\Debug\BuKing.csproj.AssemblyReference.cache
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\obj\Debug\BuKing.csproj.CoreCompileInputs.cache
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\obj\Debug\BuKing.csproj.Up2Date
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\obj\Debug\BuKing.exe
+D:\GitHub Repositorys\CSharpProjekt\BuKing\BuKing\obj\Debug\BuKing.pdb
