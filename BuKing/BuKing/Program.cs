@@ -10,8 +10,7 @@ namespace BuKing
 {
     internal class Program
     {
-        public static List<Helyszin> helyszinek = new List<Helyszin>();
-        public static List<Esemeny> esemenyek = new List<Esemeny>();
+        public static List<string> EsemenyekHelyIdopont = new List<string>();
         static void Main(string[] args)
         {
             Fajlbeolvasas.KapcsolodasDB();
@@ -30,8 +29,8 @@ namespace BuKing
                 switch (sorszam)
                 {
                     case 1:
-                       
-                        Fajlbeolvasas.EsemenyekEsHelyszínek();
+                        Fajlbeolvasas.EsemenyekEsHelyszínek(ref EsemenyekHelyIdopont);
+                        Fajlbeolvasas.Adatkiiratas(EsemenyekHelyIdopont);
                         break;
                     case 2:
                         elerhetokiiras();

@@ -27,7 +27,7 @@ namespace BuKing
             }
         }
 
-        public static void EsemenyekEsHelyszínek()
+        public static void EsemenyekEsHelyszínek(ref List<string> EsemenyekHelyEsIdopont)
         {
             
             try
@@ -38,7 +38,7 @@ namespace BuKing
                     {
                         while (mySqlDataReader.Read())
                         {
-                            Console.WriteLine($"Esemény: {mySqlDataReader[0]},\n Időpont: {mySqlDataReader[1]},\n Cím: {mySqlDataReader[3]},\n Létesítmény: {mySqlDataReader[2]}\n");
+                            EsemenyekHelyEsIdopont.Add($"Esemény: {mySqlDataReader[0]},\n Időpont: {mySqlDataReader[1]},\n Cím: {mySqlDataReader[3]},\n Létesítmény: {mySqlDataReader[2]}\n");
                         }
                     }
                 }
@@ -49,14 +49,13 @@ namespace BuKing
             }
         }
 
-        public static void Jegyelerhetoseg()
+        public static void Adatkiiratas(List<string> bemenet)
         {
-
+            for (int i = 0; i < bemenet.Count; i++)
+            {
+                Console.WriteLine(bemenet[i]);
+            }
         }
-
-        
-
-
 
     }
 }
