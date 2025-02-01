@@ -56,12 +56,12 @@ namespace BuKing
                 Console.WriteLine(bemenet[i]);
             }
         }
-        public static void Elerhetokiiras(string esemenyneve)
+        public static void Elerhetokiiras(string esemenyneve, string idopont)
         {
 
             try
             {
-                using (MySqlCommand lekerdezesEsHe = new MySqlCommand($"SELECT esemeny.nev,jegy.jegytipus, jegy.jegyar ,jegy.mennyiseg, esemeny.idopont FROM `esemeny` INNER JOIN jegy on esemeny.esemeny_id = jegy.esemeny_id WHERE esemeny.nev = '{esemenyneve}' ORDER by esemeny.idopont; ", connection)) 
+                using (MySqlCommand lekerdezesEsHe = new MySqlCommand($"SELECT jegy.jegytipus, jegy.jegyar ,jegy.mennyiseg FROM `esemeny` INNER JOIN jegy on esemeny.esemeny_id = jegy.esemeny_id WHERE esemeny.nev = '{esemenyneve}' AND esemeny.idopont = '{idopont}' ORDER by esemeny.idopont;; ", connection)) 
                 
                 {
                     using (MySqlDataReader mySqlDataReader = lekerdezesEsHe.ExecuteReader())
@@ -69,7 +69,7 @@ namespace BuKing
                         
                         while (mySqlDataReader.Read())
                         {
-                            Console.WriteLine($"Esemény: {mySqlDataReader[0]},\n Jegytípus: {mySqlDataReader[1]},\n Jegyár: {mySqlDataReader[2]},\n Mennyiség: {mySqlDataReader[3]},\n Időpont:{mySqlDataReader[4]}");
+                            Console.WriteLine($"Jegytípus:{mySqlDataReader[0]},\n Jegyár: {mySqlDataReader[1]},\n Mennyiség: {mySqlDataReader[2]},");
                         }
                     }
                 }
