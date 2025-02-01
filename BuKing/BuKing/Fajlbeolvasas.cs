@@ -56,6 +56,30 @@ namespace BuKing
                 Console.WriteLine(bemenet[i]);
             }
         }
+        public static void Elerhetokiiras(string esemenyneve)
+        {
+
+            try
+            {
+                using (MySqlCommand lekerdezesEsHe = new MySqlCommand($"SELECT esemeny.nev,jegy.jegytipus, jegy.jegyar ,jegy.mennyiseg, esemeny.idopont FROM `esemeny` INNER JOIN jegy on esemeny.esemeny_id = jegy.esemeny_id WHERE esemeny.nev = '{esemenyneve}' ORDER by esemeny.idopont; ", connection)) 
+                
+                {
+                    using (MySqlDataReader mySqlDataReader = lekerdezesEsHe.ExecuteReader())
+                    {
+                        
+                        while (mySqlDataReader.Read())
+                        {
+                            Console.WriteLine($"Esemény: {mySqlDataReader[0]},\n Jegytípus: {mySqlDataReader[1]},\n Jegyár: {mySqlDataReader[2]},\n Mennyiség: {mySqlDataReader[3]},\n Időpont:{mySqlDataReader[4]}");
+                        }
+                    }
+                }
+                
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Porszem csúszott a gépezetbe!");
+            }
+        }
 
     }
 }

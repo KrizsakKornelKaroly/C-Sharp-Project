@@ -18,10 +18,12 @@ namespace BuKing
             Console.WriteLine("Üdvözlet! Tessen kiválasztani eme végrehajtandó feladatocskát:\n" +
                 "1 - Az összes esemény lekérdezése helyszínnel és időponttal együtt \n" +
                 "2 - Jegyelérhetőségek lekérdezése\n" +
-                "3 - Jegyvásárlás\n");
+                "3 - Jegyvásárlás\n" +
+                "0 - Kilépés");
             Console.WriteLine("\nKérem a sorszámot: ");
             int sorszam = Convert.ToInt32(Console.ReadLine());
-           
+            string valasztasszoveg ="";
+            int sorszam2;
 
             while (sorszam != 0)
             {
@@ -33,7 +35,37 @@ namespace BuKing
                         Fajlbeolvasas.Adatkiiratas(EsemenyekHelyIdopont);
                         break;
                     case 2:
-                        elerhetokiiras();
+                        Console.WriteLine("Kérem válasszon egy számot, ami az esemény nevét jelöli:\n" +
+                        "1 - Marathon\n" +
+                        "2 - Rock Concert\n" +
+                        "3 - Art Exhibition\n" +
+                        "4 - Food Festival\n" +
+                        "5 - Tech Conference \n" +
+                        "0 - Kilépés");
+                        Console.WriteLine("\nKérem a számot: ");
+                        sorszam2 = Convert.ToInt32(Console.ReadLine());
+                        switch (sorszam2)
+                        {
+                            case 1:
+                                valasztasszoveg = "Marathon";
+                                break;
+                            case 2:
+                                valasztasszoveg = "Rock Concert";
+                                break;
+                            case 3:
+                                valasztasszoveg = "Art Exhibition";
+                                break;
+                            case 4:
+                                valasztasszoveg = "Food Festival";
+                                break;
+                            case 5:
+                                valasztasszoveg = "Tech Conference";
+                                break;
+                                
+                            default:
+                                break;
+                        }
+                        Fajlbeolvasas.Elerhetokiiras(valasztasszoveg);
                         break;
                     case 3:
                         foglalas();
@@ -60,10 +92,7 @@ namespace BuKing
             Console.Write("EseményADATOK!!");
         }
 
-        private static void elerhetokiiras()
-        {
-            Console.Write("ELÉRHETŐKIíRÁS!!");
-        }
+        
 
         private static void osszeskiiras()
         {
