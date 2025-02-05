@@ -27,9 +27,33 @@ namespace BuKing
             }
         }
 
+        public static List<Helyszin> Kilistazas()
+        {
+            using (MySqlCommand command = new MySqlCommand("select * from helyszin", connection))
+            {
+
+                using (MySqlDataReader mySqlDataReader = command.ExecuteReader())
+                {
+                    List<Helyszin> adatok = new List<Helyszin>();
+                    while (mySqlDataReader.Read())
+                    {
+
+                        
+
+                        adatok.Add(new Helyszin(Convert.ToInt32(mySqlDataReader[0]),
+                                                        Convert.ToString(mySqlDataReader[1]),
+                                                        Convert.ToString(mySqlDataReader[2]),
+                                                        Convert.ToInt32(mySqlDataReader[3])));
+
+                    }
+                    return adatok;
+                }
+            }
+        }
+
         public static void EsemenyekEsHelyszínek(ref List<string> EsemenyekHelyEsIdopont)
         {
-            
+
             try
             {
                 using (MySqlCommand lekerdezesEsHe = new MySqlCommand("SELECT nev, idopont, megnev, cim FROM `esemeny` INNER JOIN helyszin ON esemeny.helyszin_id = helyszin.helyszin_id", connection))
@@ -61,19 +85,19 @@ namespace BuKing
 
             try
             {
-                using (MySqlCommand lekerdezesEsHe = new MySqlCommand($"SELECT jegy.jegytipus, jegy.jegyar ,jegy.mennyiseg FROM `esemeny` INNER JOIN jegy on esemeny.esemeny_id = jegy.esemeny_id WHERE esemeny.nev = '{esemenyneve}' AND esemeny.idopont = '{idopont}' ORDER by esemeny.idopont;; ", connection)) 
-                
+                using (MySqlCommand lekerdezesEsHe = new MySqlCommand($"SELECT jegy.jegytipus, jegy.jegyar ,jegy.mennyiseg FROM `esemeny` INNER JOIN jegy on esemeny.esemeny_id = jegy.esemeny_id WHERE esemeny.nev = '{esemenyneve}' AND esemeny.idopont = '{idopont}' ORDER by esemeny.idopont;; ", connection))
+
                 {
                     using (MySqlDataReader mySqlDataReader = lekerdezesEsHe.ExecuteReader())
                     {
-                        
+
                         while (mySqlDataReader.Read())
                         {
                             Console.WriteLine($"Jegytípus:{mySqlDataReader[0]},\n Jegyár: {mySqlDataReader[1]},\n Mennyiség: {mySqlDataReader[2]},");
                         }
                     }
                 }
-                
+
             }
             catch (Exception)
             {

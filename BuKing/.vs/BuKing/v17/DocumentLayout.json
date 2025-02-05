@@ -1,30 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Tsanabu\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\",
+  "WorkspaceRootPath": "C:\\Users\\acsbenjamin\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B97A4665-EB99-45F8-B717-9D82D475D1ED}|BuKing\\BuKing.csproj|c:\\users\\tsanabu\\source\\repos\\krizsakkornelkaroly\\c-sharp-project\\buking\\buking\\fajlbeolvasas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B97A4665-EB99-45F8-B717-9D82D475D1ED}|BuKing\\BuKing.csproj|solutionrelative:buking\\fajlbeolvasas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B97A4665-EB99-45F8-B717-9D82D475D1ED}|BuKing\\BuKing.csproj|C:\\Users\\Tsanabu\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\buking\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B97A4665-EB99-45F8-B717-9D82D475D1ED}|BuKing\\BuKing.csproj|C:\\Users\\acsbenjamin\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\buking\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B97A4665-EB99-45F8-B717-9D82D475D1ED}|BuKing\\BuKing.csproj|solutionrelative:buking\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B97A4665-EB99-45F8-B717-9D82D475D1ED}|BuKing\\BuKing.csproj|C:\\Users\\Tsanabu\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\buking\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B97A4665-EB99-45F8-B717-9D82D475D1ED}|BuKing\\BuKing.csproj|solutionrelative:buking\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B97A4665-EB99-45F8-B717-9D82D475D1ED}|BuKing\\BuKing.csproj|C:\\Users\\Tsanabu\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\buking\\jegy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B97A4665-EB99-45F8-B717-9D82D475D1ED}|BuKing\\BuKing.csproj|solutionrelative:buking\\jegy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B97A4665-EB99-45F8-B717-9D82D475D1ED}|BuKing\\BuKing.csproj|C:\\Users\\Tsanabu\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\buking\\helyszin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B97A4665-EB99-45F8-B717-9D82D475D1ED}|BuKing\\BuKing.csproj|C:\\Users\\acsbenjamin\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\buking\\helyszin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B97A4665-EB99-45F8-B717-9D82D475D1ED}|BuKing\\BuKing.csproj|solutionrelative:buking\\helyszin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B97A4665-EB99-45F8-B717-9D82D475D1ED}|BuKing\\BuKing.csproj|C:\\Users\\Tsanabu\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\buking\\esemeny.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B97A4665-EB99-45F8-B717-9D82D475D1ED}|BuKing\\BuKing.csproj|c:\\users\\acsbenjamin\\source\\repos\\krizsakkornelkaroly\\c-sharp-project\\buking\\buking\\fajlbeolvasas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B97A4665-EB99-45F8-B717-9D82D475D1ED}|BuKing\\BuKing.csproj|solutionrelative:buking\\fajlbeolvasas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B97A4665-EB99-45F8-B717-9D82D475D1ED}|BuKing\\BuKing.csproj|C:\\Users\\acsbenjamin\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\buking\\esemeny.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B97A4665-EB99-45F8-B717-9D82D475D1ED}|BuKing\\BuKing.csproj|solutionrelative:buking\\esemeny.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B97A4665-EB99-45F8-B717-9D82D475D1ED}|BuKing\\BuKing.csproj|C:\\Users\\acsbenjamin\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\buking\\jegy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B97A4665-EB99-45F8-B717-9D82D475D1ED}|BuKing\\BuKing.csproj|solutionrelative:buking\\jegy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,82 +33,74 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Helyszin.cs",
+              "DocumentMoniker": "C:\\Users\\acsbenjamin\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\BuKing\\Helyszin.cs",
+              "RelativeDocumentMoniker": "BuKing\\Helyszin.cs",
+              "ToolTip": "C:\\Users\\acsbenjamin\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\BuKing\\Helyszin.cs",
+              "RelativeToolTip": "BuKing\\Helyszin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T16:20:24.509Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Tsanabu\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\BuKing\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\acsbenjamin\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\BuKing\\Program.cs",
               "RelativeDocumentMoniker": "BuKing\\Program.cs",
-              "ToolTip": "C:\\Users\\Tsanabu\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\BuKing\\Program.cs",
+              "ToolTip": "C:\\Users\\acsbenjamin\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\BuKing\\Program.cs",
               "RelativeToolTip": "BuKing\\Program.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAF0AAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-17T09:08:43.795Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Fajlbeolvasas.cs",
-              "DocumentMoniker": "C:\\Users\\Tsanabu\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\BuKing\\Fajlbeolvasas.cs",
+              "DocumentMoniker": "C:\\Users\\acsbenjamin\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\BuKing\\Fajlbeolvasas.cs",
               "RelativeDocumentMoniker": "BuKing\\Fajlbeolvasas.cs",
-              "ToolTip": "C:\\Users\\Tsanabu\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\BuKing\\Fajlbeolvasas.cs",
+              "ToolTip": "C:\\Users\\acsbenjamin\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\BuKing\\Fajlbeolvasas.cs",
               "RelativeToolTip": "BuKing\\Fajlbeolvasas.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAewD8AAAAFAQAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAiwCgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-22T09:11:26.787Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "C:\\Users\\Tsanabu\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\BuKing\\Booking.cs",
-              "RelativeDocumentMoniker": "BuKing\\Booking.cs",
-              "ToolTip": "C:\\Users\\Tsanabu\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\BuKing\\Booking.cs",
-              "RelativeToolTip": "BuKing\\Booking.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Esemeny.cs",
+              "DocumentMoniker": "C:\\Users\\acsbenjamin\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\BuKing\\Esemeny.cs",
+              "RelativeDocumentMoniker": "BuKing\\Esemeny.cs",
+              "ToolTip": "C:\\Users\\acsbenjamin\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\BuKing\\Esemeny.cs",
+              "RelativeToolTip": "BuKing\\Esemeny.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T09:24:06.536Z"
+              "WhenOpened": "2025-01-31T15:57:42.051Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Helyszin.cs",
-              "DocumentMoniker": "C:\\Users\\Tsanabu\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\BuKing\\Helyszin.cs",
-              "RelativeDocumentMoniker": "BuKing\\Helyszin.cs",
-              "ToolTip": "C:\\Users\\Tsanabu\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\BuKing\\Helyszin.cs",
-              "RelativeToolTip": "BuKing\\Helyszin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T16:20:24.509Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Esemeny.cs",
-              "DocumentMoniker": "C:\\Users\\Tsanabu\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\BuKing\\Esemeny.cs",
-              "RelativeDocumentMoniker": "BuKing\\Esemeny.cs",
-              "ToolTip": "C:\\Users\\Tsanabu\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\BuKing\\Esemeny.cs",
-              "RelativeToolTip": "BuKing\\Esemeny.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T15:57:42.051Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Jegy.cs",
-              "DocumentMoniker": "C:\\Users\\Tsanabu\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\BuKing\\Jegy.cs",
+              "DocumentMoniker": "C:\\Users\\acsbenjamin\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\BuKing\\Jegy.cs",
               "RelativeDocumentMoniker": "BuKing\\Jegy.cs",
-              "ToolTip": "C:\\Users\\Tsanabu\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\BuKing\\Jegy.cs",
+              "ToolTip": "C:\\Users\\acsbenjamin\\source\\repos\\KrizsakKornelKaroly\\C-Sharp-Project\\BuKing\\BuKing\\Jegy.cs",
               "RelativeToolTip": "BuKing\\Jegy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T16:20:17.431Z"
+              "WhenOpened": "2025-01-31T16:20:17.431Z",
+              "EditorCaption": ""
             }
           ]
         }

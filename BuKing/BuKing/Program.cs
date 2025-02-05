@@ -14,6 +14,9 @@ namespace BuKing
         static void Main(string[] args)
         {
             Fajlbeolvasas.KapcsolodasDB();
+            
+            List<Helyszin> helyszinek= Fajlbeolvasas.Kilistazas();
+            
 
             Console.WriteLine("Üdvözlet! Tessen kiválasztani eme végrehajtandó feladatocskát:\n" +
                 "1 - Az összes esemény lekérdezése helyszínnel és időponttal együtt \n" +

@@ -9,16 +9,16 @@ namespace BuKing
     internal class Helyszin
     {
         private int helyszinid;
-        private int kapacitas;
         private string megnev;
         private string cim;
+        private int kapacitas;
 
-        public Helyszin(int helyszinid, int kapacitas, string megnev, string cim)
+        public Helyszin(int helyszinid, string megnev, string cim, int kapacitas)
         {
             Helyszinid = helyszinid;
-            Kapacitas = kapacitas;
             Megnev = megnev;
             Cim = cim;
+            Kapacitas = kapacitas;
         }
 
         public int Helyszinid { get => helyszinid; set => helyszinid = value; }
