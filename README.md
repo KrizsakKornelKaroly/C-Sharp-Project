@@ -1,6 +1,6 @@
 # C-Sharp-Project
 Lö prodzsekt
-
+<img src="[images/example.png](https://github.com/KrizsakKornelKaroly/C-Sharp-Project/blob/main/Tablasql.png)" alt="Alt text" width="400px">
 
 terv:
 -kérheted hogy:-minden eseményt elmondjon
