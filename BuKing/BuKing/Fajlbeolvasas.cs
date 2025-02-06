@@ -120,7 +120,7 @@ namespace BuKing
                 {
                     lekerdezesEsHe.Parameters.AddWithValue("@mennyiseg", mennyiseg);
                     int rowsAffected = lekerdezesEsHe.ExecuteNonQuery();
-                    Console.WriteLine($"{rowsAffected} Frissülve lett. Sikeres fizetés \n" +
+                    Console.WriteLine("Sikeres fizetés \n" +
                         "----------------------------");
                     
                     
