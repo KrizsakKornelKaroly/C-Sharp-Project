@@ -27,23 +27,27 @@ namespace BuKing
             }
         }
 
-        public static List<Helyszin> Kilistazas()
+        public static List<Jegy> Kilistazas()
         {
-            using (MySqlCommand command = new MySqlCommand("select * from helyszin", connection))
+            using (MySqlCommand command = new MySqlCommand("SELECT * FROM `jegy`", connection))
             {
 
                 using (MySqlDataReader mySqlDataReader = command.ExecuteReader())
                 {
-                    List<Helyszin> adatok = new List<Helyszin>();
+                    List<Jegy> adatok = new List<Jegy>();
                     while (mySqlDataReader.Read())
                     {
 
                         
 
-                        adatok.Add(new Helyszin(Convert.ToInt32(mySqlDataReader[0]),
-                                                        Convert.ToString(mySqlDataReader[1]),
-                                                        Convert.ToString(mySqlDataReader[2]),
-                                                        Convert.ToInt32(mySqlDataReader[3])));
+                        adatok.Add(new Jegy(Convert.ToString(mySqlDataReader[0]),
+                                                        Convert.ToInt32(mySqlDataReader[1]),
+                                                        Convert.ToInt32(mySqlDataReader[2]),
+                                                        Convert.ToInt32(mySqlDataReader[3]),
+                                                        Convert.ToInt32(mySqlDataReader[4])
+
+
+                                                        ));
 
                     }
                     return adatok;
@@ -93,7 +97,9 @@ namespace BuKing
 
                         while (mySqlDataReader.Read())
                         {
-                            Console.WriteLine($"Jegytípus:{mySqlDataReader[0]},\n Jegyár: {mySqlDataReader[1]},\n Mennyiség: {mySqlDataReader[2]},");
+                            Console.WriteLine($"Jegytípus:{mySqlDataReader[0]},\n Jegyár: {mySqlDataReader[1]},\n Mennyiség: {mySqlDataReader[2]}" +
+                                $"\n--------------------------------------------------------------------");
+
                         }
                     }
                 }
@@ -103,6 +109,70 @@ namespace BuKing
             {
                 Console.WriteLine("Porszem csúszott a gépezetbe!");
             }
+        }
+        public static void Jegyfoglalas(int ID, int mennyiseg)
+        {
+
+            try
+            {
+                using (MySqlCommand lekerdezesEsHe = new MySqlCommand($"UPDATE `jegy` SET `mennyiseg`= @mennyiseg WHERE jegy.jegy_id ={ID};  ", connection))
+
+                {
+                    lekerdezesEsHe.Parameters.AddWithValue("@mennyiseg", mennyiseg);
+                    int rowsAffected = lekerdezesEsHe.ExecuteNonQuery();
+                    Console.WriteLine($"{rowsAffected} Frissülve lett. Sikeres fizetés \n" +
+                        "----------------------------");
+                    
+                    
+                }
+
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Porszem csúszott a gépezetbe!");
+            }
+        }
+
+        public static int Jegyazonositas(string esemenyneve, string idopont, int hanyadik)
+        {
+            int szamlalo = 1;
+            int ertek = 0;
+            try
+            {
+                using (MySqlCommand lekerdezesEsHe = new MySqlCommand($"SELECT jegy.jegy_id FROM `esemeny` INNER JOIN jegy on esemeny.esemeny_id = jegy.esemeny_id WHERE esemeny.nev = '{esemenyneve}' AND esemeny.idopont = '{idopont}' ORDER by esemeny.idopont; ;; ", connection))
+
+                {
+                    using (MySqlDataReader mySqlDataReader = lekerdezesEsHe.ExecuteReader())
+                    {
+
+                        while (mySqlDataReader.Read())
+                        {
+                            
+                            if (hanyadik == szamlalo) {
+                                ertek = Convert.ToInt32(mySqlDataReader[0]);
+                            }
+                            szamlalo++;
+
+                        }
+                    }
+                }
+
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Porszem csúszott a gépezetbe!");
+            }
+            if (hanyadik <= 0)
+            {
+                Console.WriteLine("Túl kicsi az érték!");
+            }
+            else if (ertek == 0)
+            {
+                Console.WriteLine("Túl nagy az érték!");
+
+            }
+            
+            return ertek;
         }
 
     }

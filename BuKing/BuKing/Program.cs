@@ -15,19 +15,22 @@ namespace BuKing
         {
             Fajlbeolvasas.KapcsolodasDB();
             
-            List<Helyszin> helyszinek= Fajlbeolvasas.Kilistazas();
+            List<Jegy> jegyek= Fajlbeolvasas.Kilistazas();
+            
+
             
 
             Console.WriteLine("Üdvözlet! Tessen kiválasztani eme végrehajtandó feladatocskát:\n" +
                 "1 - Az összes esemény lekérdezése helyszínnel és időponttal együtt \n" +
-                "2 - Jegyelérhetőségek lekérdezése\n" +
-                "3 - Jegyvásárlás\n" +
+                "2 - Jegyelérhetőségek lekérdezése\n" +               
                 "0 - Kilépés");
             Console.WriteLine("\nKérem a sorszámot: ");
             int sorszam = Convert.ToInt32(Console.ReadLine());
             string valasztasszoveg ="";
             string idopont = "";
             int sorszam2;
+            int jegyfoglalas = 0;
+            int jegyid = 0;
 
             while (sorszam != 0)
             {
@@ -39,7 +42,7 @@ namespace BuKing
                         Fajlbeolvasas.Adatkiiratas(EsemenyekHelyIdopont);
                         break;
                     case 2:
-                        Console.WriteLine("Kérem válasszon egy számot, ami az esemény nevét jelöli:\n" +
+                        Console.WriteLine("\nKérem válasszon egy számot, ami az esemény nevét jelöli:\n" +
                         "1 - Marathon, 2025-05-30 02:09:15\n" +
                         "2 - Marathon, 2025-07-21 16:32:09\n" +
                         "3 - Marathon, 2025-08-16 02:21:21\n" +
@@ -50,13 +53,14 @@ namespace BuKing
                         "8 - Food Festival, 2025-03-12 03:14:33\n" +
                         "9 - Tech Conference, 2025-02-23 14:41:25\n" +
                         "0 - Kilépés");
-                        Console.WriteLine("\nKérem a számot: ");
+                        Console.WriteLine("\nírja ide a választott esemény számát: ");
                         sorszam2 = Convert.ToInt32(Console.ReadLine());
                         switch (sorszam2)
                         {
                             case 1:
                                 valasztasszoveg = "Marathon";
                                 idopont = "2025-05-30 02:09:15";
+                                
                                 break;
                             case 2:
                                 valasztasszoveg = "Marathon";
@@ -95,14 +99,25 @@ namespace BuKing
                                 break;
                         }
                         Fajlbeolvasas.Elerhetokiiras(valasztasszoveg, idopont);
+                        Console.WriteLine("Melyik jegyet szeretné lefoglalni?: ");
+                        jegyfoglalas = Convert.ToInt32(Console.ReadLine());
+                        jegyid= Convert.ToInt32(Fajlbeolvasas.Jegyazonositas(valasztasszoveg, idopont, jegyfoglalas)) ;
+                        int jegymennyiseg = Convert.ToInt32(jegyek.Find(x => x.Jegyid == jegyid).Mennyiseg);
+                        
+                        Fajlbeolvasas.Jegyfoglalas(jegyid,jegymennyiseg-1);
+                        jegyek = Fajlbeolvasas.Kilistazas();
+
+
                         break;
-                    case 3:
-                        foglalas();
-                        break;
+                    
                     default:
                         Console.Write("Ez nincs a parancsaim között");
                         break;
                 }
+                Console.WriteLine("Tessen kiválasztani eme végrehajtandó feladatocskát:\n" +
+               "1 - Az összes esemény lekérdezése helyszínnel és időponttal együtt \n" +
+               "2 - Jegyelérhetőségek lekérdezése\n" +
+               "0 - Kilépés");
                 Console.WriteLine("\nKérem a sorszámot: ");
                 sorszam = Convert.ToInt32(Console.ReadLine());
             }
@@ -110,27 +125,7 @@ namespace BuKing
 
         }
 
-        private static void foglalas()
-        {
-            Console.Write("FOGLALÁS!!");
-
-        }
-
-        private static void esemenyadatok()
-        {
-            Console.Write("EseményADATOK!!");
-        }
-
         
-
-        private static void osszeskiiras()
-        {
-            Console.Write("ÖSSZESKIIíRÁS");
-            for (int i = 0; i < 10; i++)
-            {
-
-
-            }
-        }
     }
 }
+//Hellócska :)
