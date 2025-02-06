@@ -96,16 +96,38 @@ namespace BuKing
                                 break;
 
                             default:
+                                valasztasszoveg = "";
                                 break;
                         }
-                        Fajlbeolvasas.Elerhetokiiras(valasztasszoveg, idopont);
-                        Console.WriteLine("Melyik jegyet szeretné lefoglalni?: ");
-                        jegyfoglalas = Convert.ToInt32(Console.ReadLine());
-                        jegyid= Convert.ToInt32(Fajlbeolvasas.Jegyazonositas(valasztasszoveg, idopont, jegyfoglalas)) ;
-                        int jegymennyiseg = Convert.ToInt32(jegyek.Find(x => x.Jegyid == jegyid).Mennyiseg);
+                        if (valasztasszoveg !="")
+                        {
+                            Fajlbeolvasas.Elerhetokiiras(valasztasszoveg, idopont);
+                            Console.WriteLine("Melyik jegyet szeretné lefoglalni?: ");
+                            jegyfoglalas = Convert.ToInt32(Console.ReadLine());
+                            jegyid = Convert.ToInt32(Fajlbeolvasas.Jegyazonositas(valasztasszoveg, idopont, jegyfoglalas));
+                        }
+                        else
+                        {
+                            Console.WriteLine("\nKérlek használd a sorszámokat, amiket látsz\n");
+
+                        }
+
+                        if (jegyid!=0)
+                        {
+                            int jegymennyiseg = Convert.ToInt32(jegyek.Find(x => x.Jegyid == jegyid).Mennyiseg);
+                            if (jegymennyiseg > 0)
+                            {
+                                Fajlbeolvasas.Jegyfoglalas(jegyid, jegymennyiseg);
+                                jegyek = Fajlbeolvasas.Kilistazas();
+                            }
+                            else
+                            {
+                                Console.WriteLine("\nSajnálom, lekéstél, már elkeltek a jegyek :(\n");
+                            }
+                            
+                        }
+
                         
-                        Fajlbeolvasas.Jegyfoglalas(jegyid,jegymennyiseg-1);
-                        jegyek = Fajlbeolvasas.Kilistazas();
 
 
                         break;

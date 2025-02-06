@@ -118,12 +118,11 @@ namespace BuKing
                 using (MySqlCommand lekerdezesEsHe = new MySqlCommand($"UPDATE `jegy` SET `mennyiseg`= @mennyiseg WHERE jegy.jegy_id ={ID};  ", connection))
 
                 {
-                    lekerdezesEsHe.Parameters.AddWithValue("@mennyiseg", mennyiseg);
+                    lekerdezesEsHe.Parameters.AddWithValue("@mennyiseg", mennyiseg - 1);
                     int rowsAffected = lekerdezesEsHe.ExecuteNonQuery();
-                    Console.WriteLine("Sikeres fizetés \n" +
+                    Console.WriteLine("\nSikeres fizetés \n" +
                         "----------------------------");
-                    
-                    
+
                 }
 
             }
@@ -164,11 +163,11 @@ namespace BuKing
             }
             if (hanyadik <= 0)
             {
-                Console.WriteLine("Túl kicsi az érték!");
+                Console.WriteLine("\nNincsen ilyen jegy\n");
             }
             else if (ertek == 0)
             {
-                Console.WriteLine("Túl nagy az érték!");
+                Console.WriteLine("\nNincsen ilyen jegy\n");
 
             }
             
